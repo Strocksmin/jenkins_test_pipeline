@@ -47,7 +47,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit5</artifactId> <!-- или allure-junit4 -->
-            <version>2.20.0</version>
+            <version>2.29.0</version>
         </dependency>
 
     </dependencies>
@@ -58,10 +58,7 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.11.2</version>
-                <configuration>
-                    <reportDirectory>${basedir}/src/test/resources/allure-report</reportDirectory>
-                </configuration>
+                <version>2.15.0</version>
             </plugin>
         </plugins>
     </build>
