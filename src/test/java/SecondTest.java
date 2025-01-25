@@ -11,4 +11,10 @@ public class SecondTest {
     void testConditions() {
         assertEquals(1, 1);
     }
+
+    @Test
+    @Tag("InternalInteracting")
+    void testConditionsFailed() {
+        assertEquals(1, 111);
+    }
 }
